@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Roboto:wght@400;500;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.nav-bar{
+    background-color: #252525;
+}
+
+.nav-links{
+    display: flex;
+    list-style: none;
+}
+
+nav a{
+    padding: 20px 15px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #FF0000;
+}
+
+
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar img{
+    margin: auto;
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+}
+
+nav input{
+    margin-top: 10px;
+    margin-left: 200px;
+    width: 500px;
+    height: 40px;
+    border-radius: 12px;
+}
+
+.first-fold{
+    height: 700px;
+    position: relative;
+}
+
+.first-fold img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.first-fold-text{
+    color: #ffffff;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.first-fold-button{
+    margin-top: 25%;
+    display: inline-block;
+    top: 50%;
+    padding: 10px;
+    position: absolute;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.first-fold-button:hover{
+    background-color: #AF0404;
+}
+
+.second-fold,
+.third-fold{
+    margin: auto;
+    width: 900px;
+}
+
+.about-us{
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.about-us-body{
+    margin: 48px 0px;
+}
+
+.contact-form H1{
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 32px;
+}
+
+.contact-form H2{
+    margin: auto;
+    width: 600px;
+    text-align: center;
+    justify-content: space-around;
+    padding: 16px 0px;
+}
+
+.footer-inner{
+    width: 960px;
+    margin: auto;
+    padding: 60px 0;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.footer-fold{
+    background-color: #252525;
+}
+
+.footer-fold a{
+    padding: 10px 15px;
+    display: inline-block;
+    color: #FFFFFF;
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-fold a:hover{
+    color: #FF0000;
+}
+
+H3{
+    color: #E8DFCA;
+}
+
+.under-hr{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar,
+.under-hr,
+.content-fold H2{
+  padding: 0% 5%;
+}
+
+.content-fold{
+  padding: 24px 0px;
+  margin: 32px 0px;
+}
+
+.content-fold H2{
+    padding: 32px 30px;
+}
+
+#content{
+  color: #000000;
+}
+
+.content-fold a{
+    text-decoration: none;
+}
+
+.trending-img,
+.recent-uploads-img,
+.most-viewed-img,
+.sports-img,
+.electric-img,
+.games-img{
+  width: 300px;
+  height: 200px;
+}
+
+.trending-img img,
+.recent-uploads img,
+.most-viewed img
+.sports img,
+.electric img
+.games img{
+  width: 100%;
+  height: 100%;
+}
+
+.trending,
+.recent-uploads,
+.most-viewed,
+.sports,
+.electric,
+.games{
+    margin: auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-form-inner{
+    width: 600px;
+    margin: auto;
+}
+.contact-form-inner label,
+input,
+textarea,
+button{
+    display: block;
+}
+
+.contact-form-inner
+input,
+textarea,
+button{
+    margin-bottom: 24px;
+}
+
+label{
+    margin-bottom: 6px;
+    font-weight: 500;
+}
+
+.contact-form-inner
+input,
+textarea{
+    width: 100%;
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+}
+
+button{
+    margin-top: 24px;
+    padding: 10px;
+    color: #FFFFFF;
+    background-color: #FF0000;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 500;
+    border: none;
+}
+
+button:hover{
+    background-color: #AF0404;
+}
